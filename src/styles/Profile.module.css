@@ -1,0 +1,48 @@
+.profile {
+  flex-grow: 1;
+  padding: 24px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.group {
+  width: 100%;
+  background: #212123;
+  border-radius: 8px;
+  color: var(--light);
+  padding: 12px 24px;
+}
+
+.group input {
+  width: 100%;
+}
+
+.password {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: #212123;
+  border-radius: 8px;
+  color: var(--light);
+  padding: 12px 24px;
+}
+
+.password input {
+  width: 100%;
+}
+
+.password .hidepass {
+  width: 23px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.icon {
+  display: block;
+  width: 23px;
+  height: 20px;
+}
